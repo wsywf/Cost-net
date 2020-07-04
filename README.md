@@ -20,4 +20,5 @@ If you want to train the model,you can follow two ways to pretreat the data.
 ./cost_Net_new.py ------------------------- The Cost-net model.
 
 ./test.py --------------------------------- To get the cost-volume with the trained model.
-                                            If you want to use the params to post-procedure with c++,you can set the save_path in save2ctype.cpp and then use command     g++ -fPIC -shared -o libsave.so save2ctype.cpp  to build a dynamic link library and use it to get a c_type-cost-volume.
+
+If you want to use the params to post-procedure with c++,you can set the save_path in save2ctype.cpp and then use command     g++ -fPIC -shared -o libsave.so save2ctype.cpp  to build a dynamic link library and use it to get a c_type-cost-volume.
